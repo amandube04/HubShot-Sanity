@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hubshot CRM organition">
+
+<listeners>
+		<listener class-name="com.cg.Hubshot.ExtentReport.ExtentReporterNG" />
+	</listeners>
+
+
+  <test name="Hubshot Test Case runner">
+    <classes>    
+      <class name="com.cg.Hubshot.Testcases.Login_testcase"/>
+      <class name="com.cg.Hubshot.Testcases.Home_testcase"/>
+      <class name="com.cg.Hubshot.Testcases.contacts_testcase"/>
+    </classes>
+  </test> 
+</suite> 
